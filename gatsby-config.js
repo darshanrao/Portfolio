@@ -5,7 +5,7 @@ module.exports = {
     title: 'Darshan Rao',
     description:
       'Darshan Rao is a skilled software engineer and AI enthusiast dedicated to crafting innovative digital solutions.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://www.linkedin.com/in/raod/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: 'only_darshan',
   },

@@ -19,12 +19,12 @@ module.exports = {
       url: 'https://www.linkedin.com/in/raod/',
     },
     {
-      name: 'Leetcode',
-      url: 'https://leetcode.com/raodarshan/',
-    },
-    {
       name: 'GoogleScholar',
       url: 'https://scholar.google.com/citations?user=YhuhkOeXB8kC&hl=en',
+    },
+    {
+      name: 'Leetcode',
+      url: 'https://leetcode.com/raodarshan/',
     },
     // {
     //   name: 'Codepen',
