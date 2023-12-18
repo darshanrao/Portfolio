@@ -1,7 +1,7 @@
 ---
 date: '4'
 title: 'Deep Fake Detection'
-cover: './deepfake.jpeg'
+cover: './demo.png'
 github: 'https://github.com/darshanrao/Cylone_Intensity_Prediction_Using_Convolutional_Neural_Network'
 external: 'https://ieeexplore.ieee.org/abstract/document/10245314#:~:text=10.1109/ICDSNS58469.2023.10245314'
 cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
