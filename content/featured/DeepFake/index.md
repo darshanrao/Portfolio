@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Deep Fake Detection'
-cover: './deepfake.png'
+cover: 'deepfake.png'
 github: 'https://github.com/darshanrao/Deep-Fake-Classification'
 external: 'https://doi.org/10.1109/ICDSNS58469.2023.10245314'
 tech:
