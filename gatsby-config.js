@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Darshan Rao',
+        short_name: 'Darshan Rao',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
@@ -33,7 +33,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
+      options: { 
         name: `images`,
         path: `${__dirname}/src/images`,
       },
