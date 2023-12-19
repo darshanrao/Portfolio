@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Tropical Cylone Detection'
-cover: 'tcinet.jpeg'
+cover: 'demo.png'
 github: 'https://github.com/darshanrao/Cylone_Intensity_Prediction_Using_Convolutional_Neural_Network'
 external: 'https://ieeexplore.ieee.org/abstract/document/10276163#:~:text=10.1109/NMITCON58196.2023.10276163'
 tech:
