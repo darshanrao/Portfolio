@@ -12,4 +12,4 @@ tech:
   - Styled Components
 ---
 
-Combatting the rise of Deepfakes, our novel approach employs a CNN architecture for robust detection, showcasing resilience against manipulations like face swapping. Emerging as a significant contribution, TruceNet mitigates Deepfake risks, fortifies digital media security, offering a reliable solution to the evolving challenges in privacy and societal concerns.
+Combatting the eepfakes, our novel approach employs a CNN architecture for robust detection, showcasing resilience against manipulations like face swapping. Emerging as a significant contribution, TruceNet mitigates Deepfake risks, fortifies digital media security, offering a reliable solution to the evolving challenges in privacy and societal concerns.
