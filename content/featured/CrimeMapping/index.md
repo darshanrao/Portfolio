@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Crime Mapping'
-cover: 'halcyon.png'
+cover: 'demo.png'
 github: 'https://github.com/darshanrao/Crime-Mapping'
 external: 'https://crime-mapping-7610d.firebaseapp.com/'
 tech:
