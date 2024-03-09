@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Tropical Cylone Detection'
 cover: 'tcinet.jpeg'
 github: 'https://github.com/darshanrao/Cylone_Intensity_Prediction_Using_Convolutional_Neural_Network'

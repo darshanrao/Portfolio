@@ -1,14 +1,13 @@
 ---
-date: '3'
-title: 'Deep Fake Detection'
-cover: 'deepfake.png'
-github: 'https://github.com/darshanrao/Deep-Fake-Classification'
-external: 'https://doi.org/10.1109/ICDSNS58469.2023.10245314'
+date: '1'
+title: 'Ancient Handwritten Recognition Under Data Deficient Condition'
+cover: 'capset2.png'
+github: 'https://github.com/darshanrao/Ancient-Hand-Writtten-Recognition-Under-Data-Deficiency'
+external: 'https://drive.google.com/file/d/1mRMvPYFGlfpnCbOZf6rMkWOAzkuPilz4/view?usp=sharing'
 tech:
-  - Jupyter Notebook
   - TensorFlow
   - NumPy
   - Python
 ---
 
-Combatting the rise of Deepfakes, our novel approach employs a CNN architecture for robust detection, showcasing resilience against manipulations like face swapping. Emerging as a significant contribution, TruceNet mitigates Deepfake risks, fortifies digital media security, offering a reliable solution to the evolving challenges in privacy and societal concerns.
+This project aims to enhance handwritten recognition of ancient Indian languages using Capsule Networks, despite limited data (190 samples per character). By modifying network architecture and simulating realistic variations, it seeks to achieve superior accuracy and aid in historical text analysis.

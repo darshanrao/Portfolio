@@ -21,7 +21,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(140px, 300px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['TensorFlow', 'Numpy', 'Scikit-Learn', 'Flutter', 'Firebase', 'Docker'];
+  const skills = ['Machine Learning', 'Foundations of Artificial Intelligence', 'Analysis of Algorithms', 'Applied Natural Language Processing' ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -161,7 +161,7 @@ const About = () => {
               &amp; React.
             </p> */}
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are the list of coursework I’ve taken recently:</p>
           </div>
 
           <ul className="skills-list">
