@@ -60,10 +60,9 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-      As I actively seek internship opportunities for the summer of 2024, I welcome 
-      valuable connections and conversations. Whether you have insights to share, 
-      internship opportunities to discuss, or simply want to say hello, my inbox 
-      is always open. I appreciate your time and look forward to engaging with you!
+      As I actively seek full-time and co-op opportunities starting in Spring 2025, I welcome valuable connections and conversations. 
+      Whether you have insights to share, opportunities to discuss, potential collaborations, or simply want to say hello, my inbox is always open. 
+      I appreciate your time and look forward to engaging with you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

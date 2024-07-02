@@ -61,17 +61,11 @@ const Hero = () => {
 
   const one = <h1>Hello, my name is</h1>;
   const two = <h2 className="big-heading">Darshan Rao</h2>;
-  const three = <h3 className="medium-heading">Software Engineer | AI & Machine Learning Enthusiast</h3>;
+  const three = <h3 className="medium-heading">Bridging Research and Innovation</h3>;
   const four = (
     <>
       <p>
-      I'm a computer science graduate with a strong skill set in leveraging cutting-edge technologies 
-      to solve complex problems. My expertise is evident in impactful contributions to research, 
-      software development, and machine learning projects.
-      {' '}
-        {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a> */}
+      I am a Computer Science graduate student at USC with a keen interest in machine learning and natural language processing. I am currently engaged in research at <a href='https://inklab.usc.edu/' target="_blank" >INK Labs, USC </a>, where my focus lies in developing fact verification systems. Additionally, I am involved in creating benchmark datasets that highlight domains where Large Language Models tend to generate inaccurate information.
       </p>
     </>
   );

@@ -45,7 +45,35 @@ const StyledText = styled.div`
       }
     }
   }
+
+  ul.skills-list2 {
+
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    list-style: none;
+
+    li {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      font-family: var(--font-mono);
+      font-size: var(--fz-sm);
+
+      &:before {
+        content: '▹';
+        position: absolute;
+        left: 0;
+        color: var(--green);
+        font-size: var(--fz-md);
+        line-height: 12px;
+      }
+    }
+  }
 `;
+
+
+
 const StyledPic = styled.div`
   position: relative;
   max-width: 300px;
@@ -125,7 +153,9 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Machine Learning', 'Foundations of Artificial Intelligence', 'Analysis of Algorithms', 'Applied Natural Language Processing' ];
+  const skills = ['Python', 'C++', 'SQL', ' Bash','Dart' ];
+  const libs = ['TensorFlow','PyTorch', 'LangChain', 'Scikit-Learn','Pandas', 'Flutter', 'React'];
+  const cloud= ['Amazon Web Services','FireBase']
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -133,40 +163,41 @@ const About = () => {
 
       <div className="inner">
         <StyledText>
-          <div>
+          <div> 
             <p>
-            Hello, I'm Darshan Rao. Embarking on my Machine Learning journey during 
-            undergrad, I cultivated my skills through dynamic projects and impactful 
-            internships, contributing meaningfully to research with published papers 
-            at conferences. Currently pursuing a Master's in Computer Science with a 
-            focus on Artificial Intelligence at the{' '}
-            <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>
-            , 
-            I'm passionate about delving deeper into these fields.
+            I'm Darshan, a grad student at <a href="https://www.usc.edu/" target="_blank">University of Southern California</a> majoring in Computer Science. My journey began with a degree in Computer Engineering from the <a href="https://mu.ac.in/" target="_blank">University of Mumbai</a>, where I developed a passion for building mobile apps with Flutter. My interest in machine learning, especially neural networks, took off during my research internship at <a href="https://www.tifr.res.in/" target="_blank">TIFR</a>. I've always been more drawn to solving real-world problems than sticking to just academic theories.
+            </p>
+            <p>
+            Currently, at the <a href='https://inklab.usc.edu/' target="_blank" >INK Lab</a> at USC, I'm investigating how large language models function and the sensitivity at which they hallucinate. I'm excited about creating benchmarks to better evaluate these models.
+            </p>
+            <p>
+            With a long-standing passion for software development and machine learning, I'm eager to make my mark in this field and contribute to its future.
+            {' '}
             </p>
 
-            <p>
-            Beyond the algorithms, my enthusiasm extends to app development using Flutter,
-             showcasing my versatile side in software development. With a commitment to 
-             continuous learning and innovation, I strive to bridge the realms of machine 
-             learning and app development for impactful and holistic solutions.
-            </p>
+            <p>Here are the list of technical skills I have:</p>
 
-            {/* <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p> */}
+            <ul className="skills-list2">
+            <li>Languages 
+              <ul className="skills-list">
+                {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+              </ul>
+            </li>
+            <li>Libraries & Frameworks
+              <ul className="skills-list">
+                {libs && libs.map((libs, i) => <li key={i}>{libs}</li>)}
+              </ul>
+            </li>
+            <li> Cloud Services & DevOps
+              <ul className="skills-list">
+                {cloud && cloud.map((cloud, i) => <li key={i}>{cloud}</li>)}
+              </ul>
+            </li>
 
-            <p>Here are the list of coursework I’ve taken recently:</p>
+          </ul>
           </div>
 
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+
         </StyledText>
 
         <StyledPic>

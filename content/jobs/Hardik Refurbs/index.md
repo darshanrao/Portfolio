@@ -3,7 +3,7 @@ date: '2020-06-01'
 title: 'Back End Developer Intern'
 company: 'Hardik Refurbs'
 location: 'Delhi, India'
-range: 'Jun 2020- Sep 2020'
+range: 'Jun 2020 - Sep 2020'
 url: 'https://www.linkedin.com/company/hardik-refurbs/?originalSubdomain=in'
 ---
 

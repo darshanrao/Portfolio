@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Ancient Handwritten Recognition Under Data Deficient Condition'
 cover: 'capset2.png'
 github: 'https://github.com/darshanrao/Ancient-Hand-Writtten-Recognition-Under-Data-Deficiency'

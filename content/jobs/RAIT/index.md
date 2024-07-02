@@ -3,7 +3,7 @@ date: '2021-06-01'
 title: 'Summer Intern'
 company: 'SDG-RAIT'
 location: 'Navi Mumbai, India'
-range: 'Jun 2021- Aug 2021'
+range: 'Jun 2021 - Aug 2021'
 url: 'https://web.northeastern.edu/scout/'
 ---
 
